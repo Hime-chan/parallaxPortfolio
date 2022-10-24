@@ -13,7 +13,7 @@ export function Main ({id}:MainInterface) {
           <TimelineContainer id="mainId">
             <div className={"lifetime1 "+lifetimeDivClass[0]}><h3>Ciência da computação de 2007 a 2009</h3>
                 <p>Em 2007, com 18/19 anos, iniciei o curso de ciência da computação na Universidade Federal de Alagoas (UFAL), onde tive meu primeiro contato com a programação. Nos anos de faculdade, aprendi a trabalhar com C e C++ (C era meu favorito).</p>
-                <p>Minhas disciplinas favoritas eram programação procedural (ou "Programação 1"), matemática discreta, teoria e paradigmas de linguagem de programação (ou "TPLP"), linguagens formais e autômatos e circuitos digitais.</p>
+                <p>Minhas disciplinas favoritas eram programação procedural (ou Programação 1), matemática discreta, teoria e paradigmas de linguagem de programação (ou TPLP), linguagens formais e autômatos e circuitos digitais.</p>
                 <p>Meu histórico escolar pode ser visto <a href="historicoUFAL.pdf" target="_blank" rel="noreferrer">aqui</a>.</p>
                 <p>Infelizmente, precisei me mudar para Santa Catarina no meio do curso (terminei apenas os dois primeiros anos e acabei não tendo contato com algumas disciplinas bem importantes, como banco de dados, inteligência artificial, sistemas operacionais e computação gráfica).</p>
             </div>
@@ -28,7 +28,7 @@ export function Main ({id}:MainInterface) {
             <div className={"lifetime3 "+lifetimeDivClass[2]}><h3>Graduação, mestrado e doutorado em matemática de 2010 a 2021</h3>
                 <p>Enquanto trabalhava como programadora, decidi completar uma graduação. Como o curso de Ciência da Computação só era oferecido nos períodos matutino e vespertino (tempo integral), não consegui conciliar os estudos e o trabalho e fiz Licenciatura em Matemática (o único curso oferecido em instituição federal em período noturno na região onde morava na época).</p>
                 <p>Cursei <a rel="noreferrer" href="historicoIFC.pdf" target="_blank">Licenciatura em Matemática no Instituto Federal Catarinense (IFC- Campus Rio do Sul)</a> e, durante o curso, fiz alguns pequenos projetos em programação para serem usados na sala de aula.</p>
-                <div className='projectLinks'>
+                <div className="projectLinks">
                         [ Futuramente adicionarei alguns dos meus projetos antigos aqui ]
                 </div>                
                 <p>Esse novo contato com matemática me fez decidir me aprofundar mais no conhecimento científico-matemático. Terminando a licenciatura, fiz <a href="historicoUFAL_mestrado.pdf" target="_blank" rel="noreferrer">mestrado na Universidade Federal de Alagoas</a> na área de matemática pura, subárea de álgebra, especificamente, representações de álgebras.</p>
@@ -42,7 +42,7 @@ export function Main ({id}:MainInterface) {
                 <p>Desde setembro deste ano, decidi me dedicar a aprender as novas tendências de mercado. Relembrei o que sabia de programação funcional e aprendi um pouco de ferramentas que eu nunca havia usado: <Great>ReactJs</Great>, <Great>Next.js</Great> e <Great>Typescript</Great>.</p>
                 <p>Aprendi a trabalhar com a biblioteca <Great>styled-components</Great> para estilizar minhas páginas, a usar o <Great>GitHub</Great> para gerenciar versões e releases e o <Great>Visual Studio Code</Great> para programar (já que até então eu usava o Notepad++).</p>
                 <p>Como treinamento, entrei em uma equipe com um amigo, <a target="_blank" rel="noreferrer" href="https://github.com/xnd-dev">Alexandre Barbosa</a>, e com o apoio do meu primo, <a target="_blank" rel="noreferrer" href="https://github.com/Derecky">Derecky Costa</a>, fizemos um pequeno projeto.</p>
-                <div className='projectLinks'>
+                <div className="projectLinks">
                         <a href="https://exercicio-donutsshop.vercel.app" target="_blank" rel="noreferrer"><img src="donuts_logo.png"/></a>
                 </div>                
             </div>            
