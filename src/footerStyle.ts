@@ -58,7 +58,7 @@ export const FooterContainer = styled.footer`
     .contatos{
         position:absolute;
         bottom:0px;
-        width:100%;
+        width:99%;
         display:block;
         border-width: 10px;
         border-style: solid;

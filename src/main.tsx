@@ -15,11 +15,12 @@ export function Main ({id}:MainInterface) {
                 <p>Em 2007, com 18/19 anos, iniciei o curso de ciência da computação na Universidade Federal de Alagoas (UFAL), onde tive meu primeiro contato com a programação. Nos anos de faculdade, aprendi a trabalhar com C e C++ (C era meu favorito).</p>
                 <p>Minhas disciplinas favoritas eram programação procedural (ou "Programação 1"), matemática discreta, teoria e paradigmas de linguagem de programação (ou "TPLP"), linguagens formais e autômatos e circuitos digitais.</p>
                 <p>Meu histórico escolar pode ser visto <a href="historicoUFAL.pdf" target="_blank">aqui</a>.</p>
-                <p>Infelizmente, devido a questões familiares, precisei me mudar para Santa Catarina no meio do curso (terminei apenas os dois primeiros anos e acabei não tendo contato com algumas disciplinas bem importantes, como banco de dados, inteligência artificial, sistemas operacionais e computação gráfica).</p>
+                <p>Infelizmente, precisei me mudar para Santa Catarina no meio do curso (terminei apenas os dois primeiros anos e acabei não tendo contato com algumas disciplinas bem importantes, como banco de dados, inteligência artificial, sistemas operacionais e computação gráfica).</p>
             </div>
-            <div className={"lifetime2 "+lifetimeDivClass[1]}><h3>"Programadora" de 2009 a 2013</h3>
+            <div className={"lifetime2 "+lifetimeDivClass[1]}><h3>Programadora web de 2009 a 2013</h3>
                 <p>Já em Santa Catarina, comecei a trabalhar de programadora na empresa <a href="http://infodigitalle.com.br" target="_blank">Info Digitalle</a>, a única empresa de software da cidade onde morava.</p>
                 <p>Nesta época, comecei a trabalhar integralmente com programação web, usando as linguagens de programação Javascript e Php e as linguagens de marcação de texto e estilização Html, Css.</p>
+                <p>E como não existiam subdivisões no trabalho de programador web, eu fazia do front-end ao back-end e também o atendimento ao cliente.</p>
                 <p>O trabalho era presencial. Minha rotina consistia em receber imagens em .psd com o layout do site e programar toda a estrutura funcional do site, seu banco de dados, o painel administrativo para o cliente, as páginas em Php e as partes dinâmicas em Javascript. Não cheguei a usar JQuery, já que para as nossas necessidades seria uma solução exagerada e a eficiência e limpeza do código se mantia melhor com códigos próprios. No último anos de trabalho, aprendi a usar técnicas de Ajax para evitar o (re)carregamento de páginas.</p>
                 <p>A manutenção das páginas e adição de novas funcionalidades também cabia a mim. Havia cerca de 30 a 50 websites, nos quais os clientes cadastravam notícias, a agenda das sessões e outros eventos no município, a legislatura atual, a mesa diretora e fotos do município. </p>
                 <p>Como não havia uma equipe de programação trabalhando nos projetos, não havia a necessidade de usar softwares de controles de versão.</p>
@@ -42,7 +43,7 @@ export function Main ({id}:MainInterface) {
                 <p>Aprendi a trabalhar com a biblioteca <Great>styled-components</Great> para estilizar minhas páginas, a usar o <Great>GitHub</Great> para gerenciar versões e releases e o <Great>Visual Studio Code</Great> para programar (já que até então eu usava o Notepad++).</p>
                 <p>Como treinamento, entrei em uma equipe com um amigo, <a target="_blank" href="https://github.com/xnd-dev">Alexandre Barbosa</a>, e com o apoio do meu primo, <a target="_blank" href="https://github.com/Derecky">Derecky Costa</a>, fizemos um pequeno projeto.</p>
                 <div className='projectLinks'>
-                        [ INSERIR AQUI O PROJETO NOVO]
+                        <a href="https://exercicio-donutsshop.vercel.app" target="_blank"><img src="donuts_logo.png"/></a>
                 </div>                
             </div>            
         </TimelineContainer>

@@ -15,10 +15,11 @@ export const TimelineContainer  = styled.div`
     }
     h3 {
         font-family: ${props=> props.theme.font_H2}; 
-        font-size:1.6rem;
+        font-size:2rem;
         padding:2vh;
         box-shadow: 0px 0px 10px ${props=> props.theme.background1};
         width:120%;
+        margin-bottom:3%;
     }
 
     @keyframes animacaoLifetime_outOdd {
@@ -50,7 +51,7 @@ export const TimelineContainer  = styled.div`
         background-blend-mode: overlay;
         background-repeat: no-repeat;
         text-shadow: 3px 3px 10px ${props=> props.theme.background1};
-        min-height:30vh;
+        min-height:90vh;
         width:100%;
     };
 
@@ -93,7 +94,15 @@ export const TimelineContainer  = styled.div`
     }
 
     .projectLinks{
-        min-height:30vh;
+        padding:2vh;
+        text-align: center;
+        a {
+            display:inline-block;
+            height:30vh;
+            img {
+                height:30vh;
+            }
+        }
     }
 `
 

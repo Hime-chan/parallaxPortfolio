@@ -12,11 +12,11 @@ export const HeaderContainer = styled.header`
         font-family: ${props => props.theme.font_H1};
     }
 
-    .h2{margin:0px 10vw 0px 10vw;
+    .h2{margin:0 10vw 2vw 10vw;
         text-align: left;
         font-family: ${props=> props.theme.font_H2};
         .content{
-            span{font-size:1.4rem;display:inline;opacity:1; padding-bottom:0px; background:none}
+            span{font-size:1.8rem;display:inline;opacity:1; padding-bottom:0px; background:none}
             
             @keyframes animacaoH2_out {
                 0% {opacity:1; padding-bottom:0px;background:none} 

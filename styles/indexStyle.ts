@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const DivBody = styled.div`
     
     .DivScroll {
-        height:100%; width:100%;
+        height:100%; 
+        width:100%;
         perspective: 1px;
         position:relative;
         overflow-x: hidden; 
@@ -29,6 +30,7 @@ export const DivBody = styled.div`
 
 export const BodyContainer =  styled.div`
     height:100vh;
+    font-size:1.2rem;
     width:100vw;
     position:relative;
     overflow: hidden;
