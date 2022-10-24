@@ -22,7 +22,7 @@ export function Foot ({id}:FooterInterface) {
                 <h3>Css 3</h3>
                 <div className="alt" id="tech_css">
                     <p>O Css trabalha junto do Html para criar os estilos de cada item da página. Esses estilos normalmente são estáticos, mas na minha opinião o mais interessante é usá-los para suscitar uma dinamicidade, usando estratégias com o <i>:hover</i>, brincando com as posições, opacidade e display dos elementos na página.</p>
-                    <p>Infelizmente, ainda hoje nem todo o estilo pode ser feito com Css, mas a versão 3 ampliou imensamente a gama de possibilidades. Em tempos remotos, até as bordas arredondadas dos elementos precisavam ser feitas manualmente, seja com imagens ou com <i>div</i>'s aninhados.</p>
+                    <p>Infelizmente, ainda hoje nem todo o estilo pode ser feito com Css, mas a versão 3 ampliou imensamente a gama de possibilidades. Em tempos remotos, até as bordas arredondadas dos elementos precisavam ser feitas manualmente, seja com imagens ou com <i>div</i>s aninhados.</p>
                     <p>Além disso, a versão 3 também serviu para unificar algumas peculiaridades das linguagens internas dos navegadores de internet, unificando os antigos <i>-webkit</i>, <i>-moz</i> e trouxe animações para minimizar a necessidade de javascript para a criação de elementos dinâmicos nas páginas (como banners rotativos por exemplo).</p>
                 </div>    
             </div>
@@ -47,7 +47,7 @@ export function Foot ({id}:FooterInterface) {
                 <h3>ReactJs e Git</h3>
                 <div className="alt">
                     <p>Quando voltei a trabalhar com programação, em 2022, toda a indústria havia mudado. Programadores haviam se especializado em front e back end.</p>
-                    <p>O React é uma biblioteca de Javascript front-end usada para acessar API's e auxiliar na criação de uma interface para o usuário da página.</p>
+                    <p>O React é uma biblioteca de Javascript front-end usada para acessar APIs e auxiliar na criação de uma interface para o usuário da página.</p>
                     <p>Creio que seus maiores diferenciais para o programador (e foram também os maiores desafios no início para mim) são o trabalho através de componentes (no lugar de funções e/ou objetos) e o foco em programação funcional.</p>
                     <p>Por conta da programação funcional, o React supõe que a maioria dos conteúdos na página são estáticos e só atualiza cada componente quando necessário, com a utilização de <i>estados</i>, que, na minha opinião, são a parte mais importante da linguagem.</p>
                     <p>A componentização proposta pelo React, com pouca integração entre os componentes, auxilia bastante na construção de projetos grandes, com equipes de programadores. Além de auxiliar a padronização do código.</p>
@@ -65,10 +65,10 @@ export function Foot ({id}:FooterInterface) {
 
             <div className="contatos">
                 <h2>Contatos:</h2>
-                <a title="E-mail" rel="noreferrer" target="_blank" className='email link' href="mailto:himehimur@gmail.com"></a>
-                <a title="What&apos;s app" rel="noreferrer" target="_blank" className='phone link' href="https://api.whatsapp.com/send?phone=5547988462624"></a>
-                <a title="LinkedIn" rel="noreferrer" target="_blank" className='linkedin link' href="https://www.linkedin.com/in/hihccf/"></a>
-                <a title="GitHub" rel="noreferrer" target="_blank" className='github link' href="https://github.com/Hime-chan"></a>
+                <a title="E-mail" rel="noreferrer" target="_blank" className="email link" href="mailto:himehimur@gmail.com"></a>
+                <a title="What&apos;s app" rel="noreferrer" target="_blank" className="phone link" href="https://api.whatsapp.com/send?phone=5547988462624"></a>
+                <a title="LinkedIn" rel="noreferrer" target="_blank" className="linkedin link" href="https://www.linkedin.com/in/hihccf/"></a>
+                <a title="GitHub" rel="noreferrer" target="_blank" className="github link" href="https://github.com/Hime-chan"></a>
             </div>
         </FooterContainer>
     )
