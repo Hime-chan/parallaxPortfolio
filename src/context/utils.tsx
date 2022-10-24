@@ -53,7 +53,7 @@ export const UtilsProvider: React.FC<React.PropsWithChildren> = ({ children }) =
         else if ((controle<=controle_base)&&(controleHeader[1]>controle_base)) {classeatual="out";}
         
         if (classeatual!=""){
-          Array.prototype.forEach.call(headerH2Initial,
+          headerH2Initial.split('').forEach(
             (char,indice)=>{setTimeout(()=>{setheader2[indice](classeatual)},50*Math.random());}
           );}
         controleHeader[1]=controle;
