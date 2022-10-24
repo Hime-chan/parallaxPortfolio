@@ -66,7 +66,7 @@ export function Foot ({id}:FooterInterface) {
             <div className="contatos">
                 <h2>Contatos:</h2>
                 <a title="E-mail" rel="noreferrer" target="_blank" className='email link' href="mailto:himehimur@gmail.com"></a>
-                <a title="What's app" rel="noreferrer" target="_blank" className='phone link' href="https://api.whatsapp.com/send?phone=5547988462624"></a>
+                <a title="What&apos;s app" rel="noreferrer" target="_blank" className='phone link' href="https://api.whatsapp.com/send?phone=5547988462624"></a>
                 <a title="LinkedIn" rel="noreferrer" target="_blank" className='linkedin link' href="https://www.linkedin.com/in/hihccf/"></a>
                 <a title="GitHub" rel="noreferrer" target="_blank" className='github link' href="https://github.com/Hime-chan"></a>
             </div>
