@@ -29,7 +29,7 @@ export function Main ({id}:MainInterface) {
                 <p>Enquanto trabalhava como programadora, decidi completar uma graduação. Como o curso de Ciência da Computação só era oferecido nos períodos matutino e vespertino (tempo integral), não consegui conciliar os estudos e o trabalho e fiz Licenciatura em Matemática (o único curso oferecido em instituição federal em período noturno na região onde morava na época).</p>
                 <p>Cursei <a rel='noreferrer' href="historicoIFC.pdf" target="_blank">Licenciatura em Matemática no Instituto Federal Catarinense (IFC- Campus Rio do Sul)</a> e, durante o curso, fiz alguns pequenos projetos em programação para serem usados na sala de aula.</p>
                 <div className='projectLinks'>
-                        [ Futuramente, adicionarei alguns dos meus projetos antigos aqui ]
+                        [ Futuramente adicionarei alguns dos meus projetos antigos aqui ]
                 </div>                
                 <p>Esse novo contato com matemática me fez decidir me aprofundar mais no conhecimento científico-matemático. Terminando a licenciatura, fiz <a href="historicoUFAL_mestrado.pdf" target="_blank" rel='noreferrer'>mestrado na Universidade Federal de Alagoas</a> na área de matemática pura, subárea de álgebra, especificamente, representações de álgebras.</p>
                 <p>Terminando o mestrado, iniciei o meu <a href="historicoUSP.pdf" target="_blank" rel='noreferrer'>doutorado na USP</a>, também na subárea de representações algébricas.</p>
