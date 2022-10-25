@@ -2,12 +2,11 @@ import styled from "styled-components"
 
 export const MainContainer = styled.div`
     font-family: ${props=> props.theme.font_H2};
-    .lifetime{margin:10px 40%;}
-
 `
 export const TimelineContainer  = styled.div`
     margin:10px 0%;
     width:100%;
+    
     p{
         font-family: ${props=> props.theme.font_text};
         text-indent: 2%;
@@ -15,10 +14,11 @@ export const TimelineContainer  = styled.div`
     }
     h3 {
         font-family: ${props=> props.theme.font_H2}; 
-        font-size:2rem;
-        padding:2vh;
+        font-size:calc(20px + 1.2vw);
+        padding:2vmax 6vmax 2vmax 2vmax;
         box-shadow: 0px 0px 10px ${props=> props.theme.background1};
-        width:120%;
+        display:block;
+        width:calc(110% - 9vmax);
         margin-bottom:3%;
     }
 
@@ -53,6 +53,7 @@ export const TimelineContainer  = styled.div`
         text-shadow: 3px 3px 10px ${props=> props.theme.background1};
         min-height:90vh;
         width:100%;
+        font-size:calc(16px + 0.5vw);;
     };
 
     .lifetime1{

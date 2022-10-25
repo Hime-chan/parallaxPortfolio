@@ -17,12 +17,12 @@ export const DivBody = styled.div`
     }
     background: black;
     position:absolute;
-    top:1vmin;
+    top:0.5vmin;
     bottom:1vmin;
-    right:1vmin;
-    left:1vmin;
+    right:0.5vmin;
+    left:0.5vmin;
     display: block;
-    border-radius:5vmin 20vmin;
+    border-radius:0px 0px 100px 100px;
     padding:3vmin;
     overflow-y:none;    
 `

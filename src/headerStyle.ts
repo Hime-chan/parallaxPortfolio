@@ -1,22 +1,28 @@
 import styled from "styled-components"
 
 export const HeaderContainer = styled.header`
-    min-height:200px;
+    min-height:50vh;
     text-shadow: 3px 3px 15px ${props => props.theme.border3};
-    h1 {line-height:100px;}
+    h1 {
+        padding:8vh 2.5vh;
+    }
     h1 span{
-        margin-top:10px;
-        margin-bottom:20px;
-        padding-top:30px;
-        font-size:3rem;
+        font-size:calc(24px + 3.6vw);
         font-family: ${props => props.theme.font_H1};
     }
 
-    .h2{margin:0 10vw 2vw 10vw;
+    .h2{padding:0 10vw 9vmin 10vw;
+        display:block;
         text-align: left;
         font-family: ${props=> props.theme.font_H2};
         .content{
-            span{font-size:1.8rem;display:inline;opacity:1; padding-bottom:0px; background:none}
+            span{
+                font-size:calc(18px + 1.4vw);
+                display:inline;
+                opacity:1; 
+                padding-bottom:0px; 
+                background:none
+            }
             
             @keyframes animacaoH2_out {
                 0% {opacity:1; padding-bottom:0px;background:none} 

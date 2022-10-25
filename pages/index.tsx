@@ -27,7 +27,7 @@ const Home: NextPage = () => {
     scrollBottom:number,
     parallaxComponent:((controle:number)=>void)[]
     ){
-    const elementTop=(element as HTMLElement).offsetTop;
+    const elementTop=(element as HTMLElement).offsetTop+((element as HTMLElement).offsetParent as HTMLElement).offsetTop;
     const elementBottom=elementTop+(element as HTMLElement).offsetHeight;
     const DistTop=Math.min(Math.max((elementBottom-scrollTop)/2,0),100);
     const DistBottom=Math.min(Math.max((scrollBottom-elementTop)/2,0),100);

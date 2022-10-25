@@ -26,10 +26,10 @@ export const UtilsProvider: React.FC<React.PropsWithChildren> = ({ children }) =
   const [headerH1, setheader1] = React.useState<string>(headerH1Initial);
   var headerH2class:string[] = [];
   var setheader2: ((newClass:string)=>void)[] = [];
-  function newheaderH2class(indice:number){
+  function NewheaderH2class(indice:number){
     [headerH2class[indice], setheader2[indice]] = React.useState<string>('in');
   }
-  headerH2Initial.split('').forEach((char,indice)=>{newheaderH2class(indice)});
+  headerH2Initial.split('').forEach((char,indice)=>{NewheaderH2class(indice)});
   const PesoLetraH1=100/(headerH1Initial.length);
 
 //Main constants and variables
@@ -69,8 +69,8 @@ export const UtilsProvider: React.FC<React.PropsWithChildren> = ({ children }) =
     //Main functions
     function parallaxMain(controle:number,currentDiv:number){
       if ((!controleMain[currentDiv])&&(controle>0)) {
-        //console.log("entrando");
-        //console.log("O div"+currentDiv+"está com o controle"+controle);
+        console.log("entrando");
+        console.log("O div"+currentDiv+"está com o controle"+controle);
         let arrayTemp2=[...controleMain];
         arrayTemp2[currentDiv]=true;
         setcontroleMain([...arrayTemp2]);
@@ -79,8 +79,8 @@ export const UtilsProvider: React.FC<React.PropsWithChildren> = ({ children }) =
         setlifetimeDivClass([...arrayTemp]);
       }
       else if ((controleMain[currentDiv])&&(controle<=0)){
-        //console.log("saindo");
-        //console.log("O div"+currentDiv+"está com o controle"+controle);
+        console.log("saindo");
+        console.log("O div"+currentDiv+"está com o controle"+controle);
         let arrayTemp2=[...controleMain];
         arrayTemp2[currentDiv]=false;
         setcontroleMain([...arrayTemp2]);

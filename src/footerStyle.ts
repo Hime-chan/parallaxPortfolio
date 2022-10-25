@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const FooterContainer = styled.footer`
     overflow:hidden;
     display:block;
-    padding-bottom:35vw;
+    padding-bottom:calc(180px + 45vw);
     
     *{
         color:${props=> props.theme.color1};
@@ -13,7 +13,8 @@ export const FooterContainer = styled.footer`
     h2 {font-family: ${props=> props.theme.font_H2};
         text-shadow:0px 0px 3px ${props=> props.theme.background3}; 
         width:100%;
-        margin:2vw;
+        margin:calc(40px + 1vh);
+        font-size:calc(20px + 1.2vw);
     }
     .tech {
         display:block;
@@ -37,11 +38,12 @@ export const FooterContainer = styled.footer`
         h3 {cursor:help;
             font-family: ${props=> props.theme.font_H2};
             text-align: center;
-            line-height: 0.5rem;
+            line-height: calc(10px + 0.6vw);
             background:${props=> props.theme.background3};
             border-radius:1vw;
             color:${props=> props.theme.color1};
             text-shadow:0px 0px 3px ${props=> props.theme.background1};
+            font-size:calc(20px + 1.2vw);
         }
         
         .alt{font-family: ${props=> props.theme.font_text};
@@ -51,7 +53,12 @@ export const FooterContainer = styled.footer`
             height:0px;
             display:none;
             padding:0.5vw;
-            p{text-indent:5vw; line-height:1.5rem;}
+            p{
+                text-indent:calc(30px + 5vw);
+                line-height:calc(24px + 1.5vw);
+                text-align: justify;
+                font-size:calc(18px + 1vw);                
+            }
         }
     }
 
