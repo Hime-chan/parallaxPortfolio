@@ -26,7 +26,10 @@ export const UtilsProvider: React.FC<React.PropsWithChildren> = ({ children }) =
   const [headerH1, setheader1] = React.useState<string>(headerH1Initial);
   var headerH2class:string[] = [];
   var setheader2: ((newClass:string)=>void)[] = [];
-  headerH2Initial.split('').forEach((char,indice)=>{[headerH2class[indice], setheader2[indice]] = React.useState<string>('in');});
+  function newheaderH2class(indice:number){
+    [headerH2class[indice], setheader2[indice]] = React.useState<string>('in');
+  }
+  headerH2Initial.split('').forEach((char,indice)=>{newheaderH2class(indice)});
   const PesoLetraH1=100/(headerH1Initial.length);
 
 //Main constants and variables
