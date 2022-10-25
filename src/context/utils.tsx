@@ -46,6 +46,8 @@ export const UtilsProvider: React.FC<React.PropsWithChildren> = ({ children }) =
     }
 
     function parallaxH2(controle:number){
+      function setH2class(indice:number, classeatual:string){setheader2[indice](classeatual);}
+
       if ((controle==100)||(controle!=controleHeader[1])){
         var classeatual:string = "";
         var controle_base=90;
@@ -54,7 +56,7 @@ export const UtilsProvider: React.FC<React.PropsWithChildren> = ({ children }) =
         
         if (classeatual!=""){
           headerH2Initial.split('').forEach(
-            (char,indice)=>{setTimeout(()=>{setheader2[indice](classeatual)},50*Math.random());}
+            (char,indice)=>{setTimeout(()=>setH2class(indice, classeatual),50*Math.random());}//setheader2[indice](classeatual)
           );}
         controleHeader[1]=controle;
         setcontroleHeader({...controleHeader,1:controle});
